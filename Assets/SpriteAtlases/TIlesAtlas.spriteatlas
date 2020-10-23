@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TIlesAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f1ae579f7f4d7d540b93d280a6428d83, type: 3}
+    totalSpriteSurfaceArea: 786432
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 568d2530b8150634c846f783f3abc64c, type: 3}
+  - {fileID: 21300000, guid: 1a8a8440f6ef4c64fbc77cd59ec878e3, type: 3}
+  - {fileID: 21300000, guid: 466bb270b028cd2419706369e27f4aaf, type: 3}
+  - {fileID: 21300000, guid: 0985ff70e21734a4a95f35991c34a74e, type: 3}
+  - {fileID: 21300000, guid: 78595331c19d3d043ab373f2a9bb7dfc, type: 3}
+  - {fileID: 21300000, guid: 10665c510bda90b4e9a99ce65058caed, type: 3}
+  - {fileID: 21300000, guid: ced57eb26720025478a9ef4dd9665539, type: 3}
+  - {fileID: 21300000, guid: f14955933cc1787479ed1fab0c705968, type: 3}
+  - {fileID: 21300000, guid: 32dafcd36b0e1724cb36a66303f01bef, type: 3}
+  - {fileID: 21300000, guid: 67cea1e328e1c0b40ab04eee33a43e41, type: 3}
+  - {fileID: 21300000, guid: fb86fce39f4ffec47a452bc9476d6955, type: 3}
+  - {fileID: 21300000, guid: 345d9c658e5fcbc49a9aa72627517965, type: 3}
+  - {fileID: 21300000, guid: 54d290569ac0bb74da398d3542082e66, type: 3}
+  - {fileID: 21300000, guid: f6ccce37d63594c4184cc57bcb7f42ab, type: 3}
+  - {fileID: 21300000, guid: 0a9fe538b18cd934aa2b74a25a106789, type: 3}
+  - {fileID: 21300000, guid: b6d0d5d9712159e4693b69a18a88053b, type: 3}
+  - {fileID: 21300000, guid: 5e3903e9f40a11241afa7905f999e387, type: 3}
+  - {fileID: 21300000, guid: c937faea51c81104fb04a1373dd753b5, type: 3}
+  - {fileID: 21300000, guid: d26243faa3da956469c0839f5aae2d4b, type: 3}
+  - {fileID: 21300000, guid: a476d06bd355a8948aafa5ec4a7315be, type: 3}
+  - {fileID: 21300000, guid: 9b1bb89c7fd06204693d8a0ea1a82289, type: 3}
+  - {fileID: 21300000, guid: 04a2a2fd981d0f4418560d4e8a46d13c, type: 3}
+  - {fileID: 21300000, guid: 3befdc2e63b4efb41888d37ea4bf899d, type: 3}
+  - {fileID: 21300000, guid: 061ebbdf2c1c8b4448e0837bd031d440, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 11
+  - grass_6
+  - 7
+  - 5
+  - 13
+  - road_tile
+  - 2
+  - grass_5
+  - 4
+  - grass_3
+  - 15
+  - 8
+  - 12
+  - 14
+  - 9
+  - 3
+  - 6
+  - 16
+  - grass_1
+  - grass_2
+  - 10
+  - 17
+  - grass_4
+  - 1
+  m_Tag: TIlesAtlas
+  m_IsVariant: 0
