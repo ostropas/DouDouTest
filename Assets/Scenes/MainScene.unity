@@ -264,7 +264,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385291078}
   m_Enabled: 1
-  m_CellSize: {x: 2.56, y: 1.28, z: 0}
+  m_CellSize: {x: 2.55, y: 1.27, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 2
   m_CellSwizzle: 0
@@ -295,12 +295,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2663832faea1f9644984e4c6b73c80f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Camera: {fileID: 519420032}
+  Camera: {fileID: 519420031}
   TileMap: {fileID: 354609354}
-  RoadTile: {fileID: 11400000, guid: 01c017ea240d82847a8d566cf5d6d8e9, type: 2}
-  GrassTile: {fileID: 0}
   Size: {x: 10, y: 10}
   TilesGrid: {fileID: 385291079}
+  Tiles:
+  - Tile: {fileID: 11400000, guid: ec6a1e96e186c93478010e74f206aff4, type: 2}
+    RuleArrowMask: 0
+  - Tile: {fileID: 11400000, guid: e7566d8e1a2cb844c94f082c87adc15c, type: 2}
+    RuleArrowMask: -1
+  - Tile: {fileID: 11400000, guid: 7b559a7929170884fb2a47c3a24b9bdc, type: 2}
+    RuleArrowMask: 380
+  - Tile: {fileID: 11400000, guid: cb4ba0c3c5a667646981e81ec382bfb2, type: 2}
+    RuleArrowMask: 455
+  - Tile: {fileID: 11400000, guid: dd931c18551d9cb419901991e409472f, type: 2}
+    RuleArrowMask: 497
+  - Tile: {fileID: 11400000, guid: c12169dea254d7e4b8ec1d896943b049, type: 2}
+    RuleArrowMask: 287
+  - Tile: {fileID: 11400000, guid: 6a53f02ef5ee0cd49b26fa04322fe039, type: 2}
+    RuleArrowMask: 449
+  - Tile: {fileID: 11400000, guid: bd205f7725e71dd459a92a208b248d93, type: 2}
+    RuleArrowMask: 284
+  - Tile: {fileID: 11400000, guid: 8ef0210a90fb6be479881a1ebfd84ccb, type: 2}
+    RuleArrowMask: 368
+  - Tile: {fileID: 11400000, guid: f3769cb0371b30a47ae55b02f038dec0, type: 2}
+    RuleArrowMask: 263
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +331,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -327,6 +347,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d374015720eb241bc3d454aec6cb43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -354,7 +386,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

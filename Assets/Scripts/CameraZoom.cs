@@ -17,7 +17,7 @@ public class CameraZoom : MonoBehaviour
     void Update()
     {
         var size = _cam.orthographicSize;
-        size += -Input.GetAxis("Mouse ScrollWheel") * 2;
+        size += -Input.GetAxis("Mouse ScrollWheel") * size;
         size = Mathf.Clamp(size, 1, 9999);
         _cam.orthographicSize = size;
     }
