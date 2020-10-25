@@ -297,29 +297,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Camera: {fileID: 519420031}
   TileMap: {fileID: 354609354}
-  Size: {x: 10, y: 10}
+  Size: {x: 30, y: 30}
   TilesGrid: {fileID: 385291079}
   Tiles:
-  - Tile: {fileID: 11400000, guid: ec6a1e96e186c93478010e74f206aff4, type: 2}
-    RuleArrowMask: 0
-  - Tile: {fileID: 11400000, guid: e7566d8e1a2cb844c94f082c87adc15c, type: 2}
-    RuleArrowMask: -1
-  - Tile: {fileID: 11400000, guid: 7b559a7929170884fb2a47c3a24b9bdc, type: 2}
-    RuleArrowMask: 380
-  - Tile: {fileID: 11400000, guid: cb4ba0c3c5a667646981e81ec382bfb2, type: 2}
-    RuleArrowMask: 455
-  - Tile: {fileID: 11400000, guid: dd931c18551d9cb419901991e409472f, type: 2}
-    RuleArrowMask: 497
-  - Tile: {fileID: 11400000, guid: c12169dea254d7e4b8ec1d896943b049, type: 2}
-    RuleArrowMask: 287
-  - Tile: {fileID: 11400000, guid: 6a53f02ef5ee0cd49b26fa04322fe039, type: 2}
-    RuleArrowMask: 449
-  - Tile: {fileID: 11400000, guid: bd205f7725e71dd459a92a208b248d93, type: 2}
-    RuleArrowMask: 284
-  - Tile: {fileID: 11400000, guid: 8ef0210a90fb6be479881a1ebfd84ccb, type: 2}
-    RuleArrowMask: 368
-  - Tile: {fileID: 11400000, guid: f3769cb0371b30a47ae55b02f038dec0, type: 2}
-    RuleArrowMask: 263
+  - {fileID: 11400000, guid: e7566d8e1a2cb844c94f082c87adc15c, type: 2}
+  - {fileID: 11400000, guid: ec6a1e96e186c93478010e74f206aff4, type: 2}
+  - {fileID: 11400000, guid: cb4ba0c3c5a667646981e81ec382bfb2, type: 2}
+  - {fileID: 11400000, guid: 7b559a7929170884fb2a47c3a24b9bdc, type: 2}
+  - {fileID: 11400000, guid: c12169dea254d7e4b8ec1d896943b049, type: 2}
+  - {fileID: 11400000, guid: dd931c18551d9cb419901991e409472f, type: 2}
+  - {fileID: 11400000, guid: 6a53f02ef5ee0cd49b26fa04322fe039, type: 2}
+  - {fileID: 11400000, guid: bd205f7725e71dd459a92a208b248d93, type: 2}
+  - {fileID: 11400000, guid: 8ef0210a90fb6be479881a1ebfd84ccb, type: 2}
+  - {fileID: 11400000, guid: f3769cb0371b30a47ae55b02f038dec0, type: 2}
+  - {fileID: 11400000, guid: 5cf013a0894e6e64f990f7143e3dba7f, type: 2}
+  - {fileID: 11400000, guid: 636e5e9bd1ceddc46afcfbf78d730144, type: 2}
+  - {fileID: 11400000, guid: d07904c658ed9e348a980ff3e0b1c55b, type: 2}
+  - {fileID: 11400000, guid: cf8a0d546826b144c8ffe273e06c1a1c, type: 2}
+  - {fileID: 11400000, guid: f5e0825a5884c5e45a15b320e8f2ea78, type: 2}
+  - {fileID: 11400000, guid: 9fb45a12e520d614e84ee897a7184b04, type: 2}
+  - {fileID: 11400000, guid: 4d1c6bcd0c5face47a6f98a2c4365f66, type: 2}
+  - {fileID: 11400000, guid: 50ca077302f013e4fb7f1f9b9b8b268e, type: 2}
+  - {fileID: 11400000, guid: 4b6ba66da192fe04fb2ce9c8c86b3928, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

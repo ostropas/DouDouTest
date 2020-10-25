@@ -17,4 +17,4 @@ MonoBehaviour:
     - Tile: {fileID: 11400000, guid: c5414db47c56e624290486bbecaad4aa, type: 2}
       ZPos: 0
     - Tile: {fileID: 11400000, guid: cc5d66cb3910e04438e884967edcff87, type: 2}
-      ZPos: 1
+      ZPos: 2
